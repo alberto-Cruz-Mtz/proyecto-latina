@@ -1,12 +1,48 @@
-# React + Vite
+# Proyecto React con Bun.js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto utiliza [Bun](https://bun.sh/) como runtime de JavaScript para gestionar dependencias y ejecutar el servidor de desarrollo.
 
-Currently, two official plugins are available:
+## Requisitos previos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Antes de iniciar, asegúrate de tener instalado Bun en tu sistema. Si no lo tienes, puedes instalarlo con el siguiente comando:
 
-## Expanding the ESLint configuration
+```sh
+curl -fsSL https://bun.sh/install | bash
+```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+También puedes consultar la [documentación oficial](https://bun.sh/docs) para más opciones de instalación.
+
+## Instalación
+
+Para instalar las dependencias del proyecto, ejecuta:
+
+```sh
+bun install
+```
+
+## Ejecución del proyecto
+
+Para iniciar el servidor de desarrollo, usa:
+
+```sh
+bun run dev
+```
+
+Este comando iniciará el servidor y podrás acceder a la aplicación en tu navegador.
+
+## Construcción para producción
+
+Si deseas construir el proyecto para producción, ejecuta:
+
+```sh
+bun run build
+```
+
+Esto generará los archivos optimizados para su despliegue.
+
+## Notas
+
+- Asegúrate de que `bun.lockb` esté en tu control de versiones para mantener la consistencia de las dependencias.
+- Puedes usar `bun add <paquete>` para agregar nuevas dependencias al proyecto.
+
+¡Listo! Ahora puedes comenzar a desarrollar con Bun y React 🚀.
