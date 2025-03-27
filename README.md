@@ -5,11 +5,14 @@ Este proyecto utiliza [Bun](https://bun.sh/) como runtime de JavaScript para ges
 ## Requisitos previos
 
 Antes de iniciar, asegúrate de tener instalado Bun en tu sistema. Si no lo tienes, puedes instalarlo con el siguiente comando:
-
+En linux
 ```sh
 curl -fsSL https://bun.sh/install | bash
 ```
-
+En Windows
+```sh
+powershell -c "irm bun.sh/install.ps1|iex"
+```
 También puedes consultar la [documentación oficial](https://bun.sh/docs) para más opciones de instalación.
 
 ## Instalación
